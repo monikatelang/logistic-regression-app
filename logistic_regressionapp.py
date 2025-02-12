@@ -1,5 +1,5 @@
-!pip install streamlit
-!pip insatll matplotlib
+import subprocess
+subprocess.run(["pip", "install", "streamlit"])
 import streamlit as st
 import pandas as pd
 import numpy as np
