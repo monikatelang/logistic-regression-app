@@ -1,5 +1,5 @@
 import subprocess
-subprocess.run(["pip", "install", "streamlit"])
+subprocess.run(["pip", "install", "streamlit","matplotlib"])
 import streamlit as st
 import pandas as pd
 import numpy as np
